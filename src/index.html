@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="sv">
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8" />
   <title>Budget- och utgiftskoll</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css" />
   <script src="script.js" defer></script>
 </head>
 <body>
@@ -14,11 +14,12 @@
     <label for="desc">Beskrivning:</label>
     <input type="text" id="desc" placeholder="Ex: Mat, Hyra" />
   </div>
+
   <div>
     <label for="amount">Belopp:</label>
     <input type="number" id="amount" placeholder="Ex: 500" />
   </div>
-  
+
   <!-- Knappar för inkomst och utgift -->
   <button id="incomeBtn">Lägg till Inkomst</button>
   <button id="expenseBtn">Lägg till Utgift</button>
@@ -31,12 +32,14 @@
   <h2>Utgifter</h2>
   <ul id="expenseList"></ul>
 
-  <!-- Lista med transaktioner -->
+  <!-- Lista med transaktioner (valfri för uppgiften) -->
   <h2>Transaktioner</h2>
   <ul id="transactionList"></ul>
 
   <!-- Visning av totalt saldo -->
+
   <h2>Saldo: <span id="balance">0</span> kr</h2>
 
 </body>
 </html>
+
